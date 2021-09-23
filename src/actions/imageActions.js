@@ -8,7 +8,7 @@ const fetchImages = () => {
     for(let i=0; i<20;i++) {
         request.push({
            description: Faker.lorem.paragraph(5),
-           image: `${config.PICSUM_BASE_URL}/400/200?random=${i}`
+           image: `${config.PICSUM_BASE_URL}/400/150?random=${i}`
         })
     }
 
